@@ -1,38 +1,41 @@
-from bs4 import BeautifulSoup
-from os import path
 import json
-import codecs
-import collections
+import io
 import requests
+from os import path
 
-trees = dict()
+BASE_URL = "https://wdq.wmflabs.org/api"
 
-if not path.isfile("baumnamen.json"):
-    db = json.load(codecs.open('re_strassenbaeume.geojson', encoding='utf-8'), object_pairs_hook=collections.OrderedDict)
+trees = {}
 
-    for f in db["features"]:
-        prop = f["properties"]
+if path.exists('trees.json'):
+    trees = json.load(open('trees.json', 'r'))
 
-        botanical_name = prop["art_bot"] or ""
-        genus = prop["gattung"] or ""
-        german_name = prop["art_dtsch"] or ""
+stream = io.open('re_strassenbaeume.geojson', 'r', encoding='utf-8')
+db = json.load(stream)
 
-        tree = { 
-            "german_name": german_name.lower(), 
-            "botanical_name": botanical_name.lower(), 
-            "genus": genus.lower() 
+for f in db["features"][:20]:
+    prop = f["properties"]
+
+    botanical_name = prop["art_bot"].lower() or ""
+    
+    if len(botanical_name) == 0:
+        continue
+
+    query = "STRING[225:\"{}\"]".format(botanical_name.capitalize())
+    payload = {
+        "q": query,
+        "format": 'json',
+    }
+
+    response = requests.get(BASE_URL, params=payload)
+    json_response = response.json()
+
+    if json_response['status']['error'] == "OK":
+        tree = {
+            'wikidata_item': json_response['items'][0]
         }
 
-        trees[botanical_name.lower()] = tree
+        if botanical_name not in trees.keys():
+            trees[botanical_name] = tree
 
-    fp = open("baumnamen.json", "w")
-    json.dump(trees, fp, indent=4, sort_keys=True)
-    fp.close()
-else:
-    trees = json.load(codecs.open('baumnamen.json', encoding='utf-8'), object_pairs_hook=collections.OrderedDict)
-
-r = requests.get("https://wikidata.org")
-soup = BeautifulSoup(r.text)
-
-search_field = soup.select('.ui-suggester-input')
-print(search_field)
+json.dump(trees, open("trees.json", "w"))
