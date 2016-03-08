@@ -13,7 +13,7 @@ if path.exists('trees.json'):
 stream = io.open('re_strassenbaeume.geojson', 'r', encoding='utf-8')
 db = json.load(stream)
 
-for f in db["features"][:20]:
+for f in db["features"]:
     prop = f["properties"]
 
     botanical_name = prop["art_bot"].lower() or ""
@@ -32,8 +32,10 @@ for f in db["features"][:20]:
 
     if json_response['status']['error'] == "OK":
         tree = {
-            'wikidata_item': json_response['items'][0]
+            'wd_item_id': json_response['items'][0]
         }
+
+        
 
         if botanical_name not in trees.keys():
             trees[botanical_name] = tree
