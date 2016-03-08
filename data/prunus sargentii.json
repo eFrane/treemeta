@@ -1,5 +1,5 @@
 {
-    "wd_item_id": 146951, 
+    "wd_item_id": 163039, 
     "wd_data": {
         "claims": {
             "P646": [
@@ -52,170 +52,31 @@
                         "datatype": "external-id", 
                         "datavalue": {
                             "type": "string", 
-                            "value": "/m/04ktcm"
+                            "value": "/m/047f2ky"
                         }, 
                         "property": "P646", 
                         "snaktype": "value"
                     }, 
-                    "id": "Q146951$6B22E211-9F26-424C-881E-BA1C8BBA6A48", 
+                    "id": "Q163039$803C8F3A-1A8D-4996-B184-CA4E87C39597", 
                     "rank": "normal"
                 }
             ], 
-            "P2036": [
+            "P105": [
                 {
                     "type": "statement", 
-                    "references": [
-                        {
-                            "snaks": {
-                                "P248": [
-                                    {
-                                        "datatype": "wikibase-item", 
-                                        "datavalue": {
-                                            "type": "wikibase-entityid", 
-                                            "value": {
-                                                "entity-type": "item", 
-                                                "numeric-id": 20862705
-                                            }
-                                        }, 
-                                        "property": "P248", 
-                                        "snaktype": "value"
-                                    }
-                                ], 
-                                "P813": [
-                                    {
-                                        "datatype": "time", 
-                                        "datavalue": {
-                                            "type": "time", 
-                                            "value": {
-                                                "after": 0, 
-                                                "precision": 11, 
-                                                "time": "+2015-08-25T00:00:00Z", 
-                                                "timezone": 0, 
-                                                "calendarmodel": "http://www.wikidata.org/entity/Q1985727", 
-                                                "before": 0
-                                            }
-                                        }, 
-                                        "property": "P813", 
-                                        "snaktype": "value"
-                                    }
-                                ]
-                            }, 
-                            "hash": "eafd25e06a7832d44046b4176e393377a92e5cf9", 
-                            "snaks-order": [
-                                "P248", 
-                                "P813"
-                            ]
-                        }
-                    ], 
                     "mainsnak": {
-                        "datatype": "external-id", 
+                        "datatype": "wikibase-item", 
                         "datavalue": {
-                            "type": "string", 
-                            "value": "152749"
+                            "type": "wikibase-entityid", 
+                            "value": {
+                                "entity-type": "item", 
+                                "numeric-id": 7432
+                            }
                         }, 
-                        "property": "P2036", 
+                        "property": "P105", 
                         "snaktype": "value"
                     }, 
-                    "id": "Q146951$CB413738-E561-4636-B177-ECECC524C1B9", 
-                    "rank": "normal"
-                }
-            ], 
-            "P373": [
-                {
-                    "type": "statement", 
-                    "references": [
-                        {
-                            "snaks": {
-                                "P143": [
-                                    {
-                                        "datatype": "wikibase-item", 
-                                        "datavalue": {
-                                            "type": "wikibase-entityid", 
-                                            "value": {
-                                                "entity-type": "item", 
-                                                "numeric-id": 206855
-                                            }
-                                        }, 
-                                        "property": "P143", 
-                                        "snaktype": "value"
-                                    }
-                                ]
-                            }, 
-                            "hash": "d6e3ab4045fb3f3feea77895bc6b27e663fc878a", 
-                            "snaks-order": [
-                                "P143"
-                            ]
-                        }
-                    ], 
-                    "mainsnak": {
-                        "datatype": "string", 
-                        "datavalue": {
-                            "type": "string", 
-                            "value": "Prunus cerasifera"
-                        }, 
-                        "property": "P373", 
-                        "snaktype": "value"
-                    }, 
-                    "id": "q146951$DEC80926-DEAE-41FC-9CA5-12B6A6DF873D", 
-                    "rank": "normal"
-                }
-            ], 
-            "P685": [
-                {
-                    "type": "statement", 
-                    "references": [
-                        {
-                            "snaks": {
-                                "P248": [
-                                    {
-                                        "datatype": "wikibase-item", 
-                                        "datavalue": {
-                                            "type": "wikibase-entityid", 
-                                            "value": {
-                                                "entity-type": "item", 
-                                                "numeric-id": 13711410
-                                            }
-                                        }, 
-                                        "property": "P248", 
-                                        "snaktype": "value"
-                                    }
-                                ], 
-                                "P813": [
-                                    {
-                                        "datatype": "time", 
-                                        "datavalue": {
-                                            "type": "time", 
-                                            "value": {
-                                                "after": 0, 
-                                                "precision": 11, 
-                                                "time": "+2015-11-14T00:00:00Z", 
-                                                "timezone": 0, 
-                                                "calendarmodel": "http://www.wikidata.org/entity/Q1985727", 
-                                                "before": 0
-                                            }
-                                        }, 
-                                        "property": "P813", 
-                                        "snaktype": "value"
-                                    }
-                                ]
-                            }, 
-                            "hash": "9c981d9153e5a253d15437fb924b913ab2aec714", 
-                            "snaks-order": [
-                                "P248", 
-                                "P813"
-                            ]
-                        }
-                    ], 
-                    "mainsnak": {
-                        "datatype": "external-id", 
-                        "datavalue": {
-                            "type": "string", 
-                            "value": "36595"
-                        }, 
-                        "property": "P685", 
-                        "snaktype": "value"
-                    }, 
-                    "id": "Q146951$8CF2240C-A292-4AAB-9D3F-D27A25B7125D", 
+                    "id": "Q163039$A94D4569-9879-43C8-8D93-4627B238EC08", 
                     "rank": "normal"
                 }
             ], 
@@ -234,7 +95,7 @@
                         "property": "P171", 
                         "snaktype": "value"
                     }, 
-                    "id": "Q146951$0B896BB9-8B92-48AD-A8DB-236BB0D0DA2F", 
+                    "id": "Q163039$06F4EBAB-A95E-4074-BCED-24538329F651", 
                     "rank": "normal"
                 }
             ], 
@@ -288,536 +149,88 @@
                         "datatype": "external-id", 
                         "datavalue": {
                             "type": "string", 
-                            "value": "223077"
+                            "value": "264491"
                         }, 
                         "property": "P1939", 
                         "snaktype": "value"
                     }, 
-                    "id": "Q146951$24CE9E98-B77A-4F74-89E8-12CF3C52BECE", 
-                    "rank": "normal"
-                }
-            ], 
-            "P830": [
-                {
-                    "type": "statement", 
-                    "references": [
-                        {
-                            "snaks": {
-                                "P248": [
-                                    {
-                                        "datatype": "wikibase-item", 
-                                        "datavalue": {
-                                            "type": "wikibase-entityid", 
-                                            "value": {
-                                                "entity-type": "item", 
-                                                "numeric-id": 82486
-                                            }
-                                        }, 
-                                        "property": "P248", 
-                                        "snaktype": "value"
-                                    }
-                                ], 
-                                "P813": [
-                                    {
-                                        "datatype": "time", 
-                                        "datavalue": {
-                                            "type": "time", 
-                                            "value": {
-                                                "after": 0, 
-                                                "precision": 11, 
-                                                "time": "+2014-10-31T00:00:00Z", 
-                                                "timezone": 0, 
-                                                "calendarmodel": "http://www.wikidata.org/entity/Q1985727", 
-                                                "before": 0
-                                            }
-                                        }, 
-                                        "property": "P813", 
-                                        "snaktype": "value"
-                                    }
-                                ]
-                            }, 
-                            "hash": "bb378474a458974073cdaf414be6d25036d6c494", 
-                            "snaks-order": [
-                                "P248", 
-                                "P813"
-                            ]
-                        }
-                    ], 
-                    "mainsnak": {
-                        "datatype": "external-id", 
-                        "datavalue": {
-                            "type": "string", 
-                            "value": "631720"
-                        }, 
-                        "property": "P830", 
-                        "snaktype": "value"
-                    }, 
-                    "id": "Q146951$3DBC9081-A66C-4669-80BB-CDFC6DFC0060", 
-                    "rank": "normal"
-                }
-            ], 
-            "P18": [
-                {
-                    "type": "statement", 
-                    "references": [
-                        {
-                            "snaks": {
-                                "P143": [
-                                    {
-                                        "datatype": "wikibase-item", 
-                                        "datavalue": {
-                                            "type": "wikibase-entityid", 
-                                            "value": {
-                                                "entity-type": "item", 
-                                                "numeric-id": 328
-                                            }
-                                        }, 
-                                        "property": "P143", 
-                                        "snaktype": "value"
-                                    }
-                                ]
-                            }, 
-                            "hash": "7eb64cf9621d34c54fd4bd040ed4b61a88c4a1a0", 
-                            "snaks-order": [
-                                "P143"
-                            ]
-                        }
-                    ], 
-                    "mainsnak": {
-                        "datatype": "commonsMedia", 
-                        "datavalue": {
-                            "type": "string", 
-                            "value": "Prunus cerasifera JPG1a.jpg"
-                        }, 
-                        "property": "P18", 
-                        "snaktype": "value"
-                    }, 
-                    "id": "q146951$AA4BB3C3-C99E-4E3D-BCE1-9B1FB9C7CE4F", 
-                    "rank": "normal"
-                }
-            ], 
-            "P1843": [
-                {
-                    "type": "statement", 
-                    "references": [
-                        {
-                            "snaks": {
-                                "P248": [
-                                    {
-                                        "datatype": "wikibase-item", 
-                                        "datavalue": {
-                                            "type": "wikibase-entityid", 
-                                            "value": {
-                                                "entity-type": "item", 
-                                                "numeric-id": 20073251
-                                            }
-                                        }, 
-                                        "property": "P248", 
-                                        "snaktype": "value"
-                                    }
-                                ], 
-                                "P813": [
-                                    {
-                                        "datatype": "time", 
-                                        "datavalue": {
-                                            "type": "time", 
-                                            "value": {
-                                                "after": 0, 
-                                                "precision": 11, 
-                                                "time": "+2015-06-10T00:00:00Z", 
-                                                "timezone": 0, 
-                                                "calendarmodel": "http://www.wikidata.org/entity/Q1985727", 
-                                                "before": 0
-                                            }
-                                        }, 
-                                        "property": "P813", 
-                                        "snaktype": "value"
-                                    }
-                                ], 
-                                "P854": [
-                                    {
-                                        "datatype": "url", 
-                                        "datavalue": {
-                                            "type": "string", 
-                                            "value": "http://www.floraweb.de/pflanzenarten/artenhome.xsql?suchnr=4584"
-                                        }, 
-                                        "property": "P854", 
-                                        "snaktype": "value"
-                                    }
-                                ]
-                            }, 
-                            "hash": "395e19237236ed60a62b3286248d22c060a5f85e", 
-                            "snaks-order": [
-                                "P248", 
-                                "P854", 
-                                "P813"
-                            ]
-                        }
-                    ], 
-                    "mainsnak": {
-                        "datatype": "monolingualtext", 
-                        "datavalue": {
-                            "type": "monolingualtext", 
-                            "value": {
-                                "text": "Kirsch-Pflaume", 
-                                "language": "de"
-                            }
-                        }, 
-                        "property": "P1843", 
-                        "snaktype": "value"
-                    }, 
-                    "id": "Q146951$20915EF0-149D-4F43-AF5B-70BCD1F3CF48", 
-                    "rank": "normal"
-                }
-            ], 
-            "P31": [
-                {
-                    "type": "statement", 
-                    "mainsnak": {
-                        "datatype": "wikibase-item", 
-                        "datavalue": {
-                            "type": "wikibase-entityid", 
-                            "value": {
-                                "entity-type": "item", 
-                                "numeric-id": 16521
-                            }
-                        }, 
-                        "property": "P31", 
-                        "snaktype": "value"
-                    }, 
-                    "id": "Q146951$66CB1732-B3BB-4382-9214-414BCFF54214", 
-                    "rank": "normal"
-                }
-            ], 
-            "P1747": [
-                {
-                    "type": "statement", 
-                    "references": [
-                        {
-                            "snaks": {
-                                "P248": [
-                                    {
-                                        "datatype": "wikibase-item", 
-                                        "datavalue": {
-                                            "type": "wikibase-entityid", 
-                                            "value": {
-                                                "entity-type": "item", 
-                                                "numeric-id": 5460442
-                                            }
-                                        }, 
-                                        "property": "P248", 
-                                        "snaktype": "value"
-                                    }
-                                ], 
-                                "P813": [
-                                    {
-                                        "datatype": "time", 
-                                        "datavalue": {
-                                            "type": "time", 
-                                            "value": {
-                                                "after": 0, 
-                                                "precision": 11, 
-                                                "time": "+2015-05-01T00:00:00Z", 
-                                                "timezone": 0, 
-                                                "calendarmodel": "http://www.wikidata.org/entity/Q1985727", 
-                                                "before": 0
-                                            }
-                                        }, 
-                                        "property": "P813", 
-                                        "snaktype": "value"
-                                    }
-                                ]
-                            }, 
-                            "hash": "c23e132d7427dc1f1867d3fcfb908fcf375b4e70", 
-                            "snaks-order": [
-                                "P248", 
-                                "P813"
-                            ]
-                        }
-                    ], 
-                    "mainsnak": {
-                        "datatype": "external-id", 
-                        "datavalue": {
-                            "type": "string", 
-                            "value": "200011156"
-                        }, 
-                        "property": "P1747", 
-                        "snaktype": "value"
-                    }, 
-                    "id": "Q146951$1D1A339D-CAA0-4CAA-B280-E3A922D41E07", 
-                    "rank": "normal"
-                }
-            ], 
-            "P1772": [
-                {
-                    "type": "statement", 
-                    "references": [
-                        {
-                            "snaks": {
-                                "P248": [
-                                    {
-                                        "datatype": "wikibase-item", 
-                                        "datavalue": {
-                                            "type": "wikibase-entityid", 
-                                            "value": {
-                                                "entity-type": "item", 
-                                                "numeric-id": 19636200
-                                            }
-                                        }, 
-                                        "property": "P248", 
-                                        "snaktype": "value"
-                                    }
-                                ], 
-                                "P813": [
-                                    {
-                                        "datatype": "time", 
-                                        "datavalue": {
-                                            "type": "time", 
-                                            "value": {
-                                                "after": 0, 
-                                                "precision": 11, 
-                                                "time": "+2015-03-21T00:00:00Z", 
-                                                "timezone": 0, 
-                                                "calendarmodel": "http://www.wikidata.org/entity/Q1985727", 
-                                                "before": 0
-                                            }
-                                        }, 
-                                        "property": "P813", 
-                                        "snaktype": "value"
-                                    }
-                                ]
-                            }, 
-                            "hash": "c47d53ef4bf6ee37c3695e9837d013d170257a5b", 
-                            "snaks-order": [
-                                "P248", 
-                                "P813"
-                            ]
-                        }
-                    ], 
-                    "mainsnak": {
-                        "datatype": "external-id", 
-                        "datavalue": {
-                            "type": "string", 
-                            "value": "PRCE2"
-                        }, 
-                        "property": "P1772", 
-                        "snaktype": "value"
-                    }, 
-                    "id": "Q146951$50ABF482-9B4D-4D84-AB6A-A2D927F1029F", 
-                    "rank": "normal"
-                }
-            ], 
-            "P1745": [
-                {
-                    "type": "statement", 
-                    "references": [
-                        {
-                            "snaks": {
-                                "P248": [
-                                    {
-                                        "datatype": "wikibase-item", 
-                                        "datavalue": {
-                                            "type": "wikibase-entityid", 
-                                            "value": {
-                                                "entity-type": "item", 
-                                                "numeric-id": 19544711
-                                            }
-                                        }, 
-                                        "property": "P248", 
-                                        "snaktype": "value"
-                                    }
-                                ], 
-                                "P813": [
-                                    {
-                                        "datatype": "time", 
-                                        "datavalue": {
-                                            "type": "time", 
-                                            "value": {
-                                                "after": 0, 
-                                                "precision": 11, 
-                                                "time": "+2015-03-10T00:00:00Z", 
-                                                "timezone": 0, 
-                                                "calendarmodel": "http://www.wikidata.org/entity/Q1985727", 
-                                                "before": 0
-                                            }
-                                        }, 
-                                        "property": "P813", 
-                                        "snaktype": "value"
-                                    }
-                                ]
-                            }, 
-                            "hash": "53dac8b132b03dd17d137470d3c70f37f7447bbd", 
-                            "snaks-order": [
-                                "P248", 
-                                "P813"
-                            ]
-                        }
-                    ], 
-                    "mainsnak": {
-                        "datatype": "external-id", 
-                        "datavalue": {
-                            "type": "string", 
-                            "value": "8860"
-                        }, 
-                        "property": "P1745", 
-                        "snaktype": "value"
-                    }, 
-                    "id": "Q146951$5EFC6702-185F-4917-ACC9-B7C2F5DE955C", 
-                    "rank": "normal"
-                }
-            ], 
-            "P935": [
-                {
-                    "type": "statement", 
-                    "mainsnak": {
-                        "datatype": "string", 
-                        "datavalue": {
-                            "type": "string", 
-                            "value": "Prunus cerasifera"
-                        }, 
-                        "property": "P935", 
-                        "snaktype": "value"
-                    }, 
-                    "id": "Q146951$AC5F2ED7-F5C1-46BA-985B-8E2C9995E3C5", 
-                    "rank": "normal"
-                }
-            ], 
-            "P815": [
-                {
-                    "type": "statement", 
-                    "references": [
-                        {
-                            "snaks": {
-                                "P248": [
-                                    {
-                                        "datatype": "wikibase-item", 
-                                        "datavalue": {
-                                            "type": "wikibase-entityid", 
-                                            "value": {
-                                                "entity-type": "item", 
-                                                "numeric-id": 82575
-                                            }
-                                        }, 
-                                        "property": "P248", 
-                                        "snaktype": "value"
-                                    }
-                                ], 
-                                "P813": [
-                                    {
-                                        "datatype": "time", 
-                                        "datavalue": {
-                                            "type": "time", 
-                                            "value": {
-                                                "after": 0, 
-                                                "precision": 11, 
-                                                "time": "+2014-11-06T00:00:00Z", 
-                                                "timezone": 0, 
-                                                "calendarmodel": "http://www.wikidata.org/entity/Q1985727", 
-                                                "before": 0
-                                            }
-                                        }, 
-                                        "property": "P813", 
-                                        "snaktype": "value"
-                                    }
-                                ]
-                            }, 
-                            "hash": "b38d79c9b3d2c231d9ef0280f778d38a6ce96326", 
-                            "snaks-order": [
-                                "P248", 
-                                "P813"
-                            ]
-                        }
-                    ], 
-                    "mainsnak": {
-                        "datatype": "external-id", 
-                        "datavalue": {
-                            "type": "string", 
-                            "value": "24772"
-                        }, 
-                        "property": "P815", 
-                        "snaktype": "value"
-                    }, 
-                    "id": "Q146951$B4AEBBF9-B2A2-4E52-9AB0-5367935F6382", 
-                    "rank": "normal"
-                }
-            ], 
-            "P105": [
-                {
-                    "type": "statement", 
-                    "mainsnak": {
-                        "datatype": "wikibase-item", 
-                        "datavalue": {
-                            "type": "wikibase-entityid", 
-                            "value": {
-                                "entity-type": "item", 
-                                "numeric-id": 7432
-                            }
-                        }, 
-                        "property": "P105", 
-                        "snaktype": "value"
-                    }, 
-                    "id": "q146951$E8C436B9-764E-4DBD-B441-01B31E579C17", 
+                    "id": "Q163039$A783EF4D-6B6C-4C99-BB82-943307521C69", 
                     "rank": "normal"
                 }
             ], 
             "P225": [
                 {
+                    "type": "statement", 
                     "mainsnak": {
                         "datatype": "string", 
                         "datavalue": {
                             "type": "string", 
-                            "value": "Prunus cerasifera"
+                            "value": "Prunus sargentii"
                         }, 
                         "property": "P225", 
                         "snaktype": "value"
                     }, 
-                    "rank": "normal", 
-                    "id": "q146951$E80CA6A1-8B13-48EE-82FB-C9B0225D6511", 
-                    "qualifiers-order": [
-                        "P405"
-                    ], 
+                    "id": "Q163039$AAECF80A-6659-46DF-AE05-18AB9CF1278E", 
+                    "rank": "normal"
+                }
+            ], 
+            "P685": [
+                {
+                    "type": "statement", 
                     "references": [
                         {
                             "snaks": {
-                                "P143": [
+                                "P248": [
                                     {
                                         "datatype": "wikibase-item", 
                                         "datavalue": {
                                             "type": "wikibase-entityid", 
                                             "value": {
                                                 "entity-type": "item", 
-                                                "numeric-id": 11913
+                                                "numeric-id": 13711410
                                             }
                                         }, 
-                                        "property": "P143", 
+                                        "property": "P248", 
+                                        "snaktype": "value"
+                                    }
+                                ], 
+                                "P813": [
+                                    {
+                                        "datatype": "time", 
+                                        "datavalue": {
+                                            "type": "time", 
+                                            "value": {
+                                                "after": 0, 
+                                                "precision": 11, 
+                                                "time": "+2015-11-14T00:00:00Z", 
+                                                "timezone": 0, 
+                                                "calendarmodel": "http://www.wikidata.org/entity/Q1985727", 
+                                                "before": 0
+                                            }
+                                        }, 
+                                        "property": "P813", 
                                         "snaktype": "value"
                                     }
                                 ]
                             }, 
-                            "hash": "959f2f0a884c2248ffd92b44740a48cae76a76dd", 
+                            "hash": "9c981d9153e5a253d15437fb924b913ab2aec714", 
                             "snaks-order": [
-                                "P143"
+                                "P248", 
+                                "P813"
                             ]
                         }
                     ], 
-                    "type": "statement", 
-                    "qualifiers": {
-                        "P405": [
-                            {
-                                "datatype": "wikibase-item", 
-                                "datavalue": {
-                                    "type": "wikibase-entityid", 
-                                    "value": {
-                                        "entity-type": "item", 
-                                        "numeric-id": 123996
-                                    }
-                                }, 
-                                "property": "P405", 
-                                "hash": "330102308a2d07eb1c26f59c1ee2459dda87e030", 
-                                "snaktype": "value"
-                            }
-                        ]
-                    }
+                    "mainsnak": {
+                        "datatype": "external-id", 
+                        "datavalue": {
+                            "type": "string", 
+                            "value": "97308"
+                        }, 
+                        "property": "P685", 
+                        "snaktype": "value"
+                    }, 
+                    "id": "Q163039$8CDD9E50-6AFB-4A03-B431-06E9FA754AD2", 
+                    "rank": "normal"
                 }
             ], 
             "P1421": [
@@ -870,28 +283,71 @@
                         "datatype": "url", 
                         "datavalue": {
                             "type": "string", 
-                            "value": "https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=29860"
+                            "value": "https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=30092"
                         }, 
                         "property": "P1421", 
                         "snaktype": "value"
                     }, 
-                    "id": "Q146951$01B93596-1562-45A3-B1FA-5CF07A178CEF", 
+                    "id": "Q163039$ECBB667B-835D-4D2E-8936-DD7123CECB4C", 
                     "rank": "normal"
                 }
             ], 
             "P961": [
                 {
                     "type": "statement", 
+                    "references": [
+                        {
+                            "snaks": {
+                                "P248": [
+                                    {
+                                        "datatype": "wikibase-item", 
+                                        "datavalue": {
+                                            "type": "wikibase-entityid", 
+                                            "value": {
+                                                "entity-type": "item", 
+                                                "numeric-id": 922063
+                                            }
+                                        }, 
+                                        "property": "P248", 
+                                        "snaktype": "value"
+                                    }
+                                ], 
+                                "P813": [
+                                    {
+                                        "datatype": "time", 
+                                        "datavalue": {
+                                            "type": "time", 
+                                            "value": {
+                                                "after": 0, 
+                                                "precision": 11, 
+                                                "time": "+2014-03-18T00:00:00Z", 
+                                                "timezone": 0, 
+                                                "calendarmodel": "http://www.wikidata.org/entity/Q1985727", 
+                                                "before": 0
+                                            }
+                                        }, 
+                                        "property": "P813", 
+                                        "snaktype": "value"
+                                    }
+                                ]
+                            }, 
+                            "hash": "600c7fd2591b02e0aa7eb377159708d2af55fa54", 
+                            "snaks-order": [
+                                "P248", 
+                                "P813"
+                            ]
+                        }
+                    ], 
                     "mainsnak": {
                         "datatype": "external-id", 
                         "datavalue": {
                             "type": "string", 
-                            "value": "729568-1"
+                            "value": "730239-1"
                         }, 
                         "property": "P961", 
                         "snaktype": "value"
                     }, 
-                    "id": "Q146951$EFFEF7EB-0880-4E2C-8C77-7C27E46E6CF1", 
+                    "id": "Q163039$1B4A2975-1351-41F6-BE3E-D4C9D5B439B8", 
                     "rank": "normal"
                 }
             ], 
@@ -945,12 +401,71 @@
                         "datatype": "external-id", 
                         "datavalue": {
                             "type": "string", 
-                            "value": "27801090"
+                            "value": "27803760"
                         }, 
                         "property": "P960", 
                         "snaktype": "value"
                     }, 
-                    "id": "Q146951$9F829CD6-AA58-44AA-BDAF-74FDD271E63D", 
+                    "id": "Q163039$E2815221-1926-498C-8386-C4D7F18871F2", 
+                    "rank": "normal"
+                }
+            ], 
+            "P830": [
+                {
+                    "type": "statement", 
+                    "references": [
+                        {
+                            "snaks": {
+                                "P248": [
+                                    {
+                                        "datatype": "wikibase-item", 
+                                        "datavalue": {
+                                            "type": "wikibase-entityid", 
+                                            "value": {
+                                                "entity-type": "item", 
+                                                "numeric-id": 82486
+                                            }
+                                        }, 
+                                        "property": "P248", 
+                                        "snaktype": "value"
+                                    }
+                                ], 
+                                "P813": [
+                                    {
+                                        "datatype": "time", 
+                                        "datavalue": {
+                                            "type": "time", 
+                                            "value": {
+                                                "after": 0, 
+                                                "precision": 11, 
+                                                "time": "+2015-09-23T00:00:00Z", 
+                                                "timezone": 0, 
+                                                "calendarmodel": "http://www.wikidata.org/entity/Q1985727", 
+                                                "before": 0
+                                            }
+                                        }, 
+                                        "property": "P813", 
+                                        "snaktype": "value"
+                                    }
+                                ]
+                            }, 
+                            "hash": "5bf92a822c6295ff1594e1681d9b8890829603db", 
+                            "snaks-order": [
+                                "P248", 
+                                "P813"
+                            ]
+                        }
+                    ], 
+                    "mainsnak": {
+                        "datatype": "external-id", 
+                        "datavalue": {
+                            "type": "string", 
+                            "value": "792834"
+                        }, 
+                        "property": "P830", 
+                        "snaktype": "value"
+                    }, 
+                    "id": "Q163039$5f893891-515c-4df4-827c-0b4ffcc0e9aa", 
                     "rank": "normal"
                 }
             ], 
@@ -982,7 +497,7 @@
                                             "value": {
                                                 "after": 0, 
                                                 "precision": 11, 
-                                                "time": "+2015-05-24T00:00:00Z", 
+                                                "time": "+2015-05-26T00:00:00Z", 
                                                 "timezone": 0, 
                                                 "calendarmodel": "http://www.wikidata.org/entity/Q1985727", 
                                                 "before": 0
@@ -993,7 +508,7 @@
                                     }
                                 ]
                             }, 
-                            "hash": "b8b0bc737c99e684a3b46b23cba5d615187f13a5", 
+                            "hash": "b89c0f2c44c1a9127cb475c8b4f0e31726da36f5", 
                             "snaks-order": [
                                 "P248", 
                                 "P813"
@@ -1004,12 +519,87 @@
                         "datatype": "external-id", 
                         "datavalue": {
                             "type": "string", 
-                            "value": "3021730"
+                            "value": "3020955"
                         }, 
                         "property": "P846", 
                         "snaktype": "value"
                     }, 
-                    "id": "Q146951$1EE956C7-EBF3-418A-BB43-99924E40FDED", 
+                    "id": "Q163039$471F110A-C74A-42F8-854A-CD39E52B9E93", 
+                    "rank": "normal"
+                }
+            ], 
+            "P935": [
+                {
+                    "type": "statement", 
+                    "mainsnak": {
+                        "datatype": "string", 
+                        "datavalue": {
+                            "type": "string", 
+                            "value": "Prunus sargentii"
+                        }, 
+                        "property": "P935", 
+                        "snaktype": "value"
+                    }, 
+                    "id": "Q163039$1429169C-99DA-4E8D-A4B4-A2934FF1701B", 
+                    "rank": "normal"
+                }
+            ], 
+            "P18": [
+                {
+                    "type": "statement", 
+                    "references": [
+                        {
+                            "snaks": {
+                                "P143": [
+                                    {
+                                        "datatype": "wikibase-item", 
+                                        "datavalue": {
+                                            "type": "wikibase-entityid", 
+                                            "value": {
+                                                "entity-type": "item", 
+                                                "numeric-id": 328
+                                            }
+                                        }, 
+                                        "property": "P143", 
+                                        "snaktype": "value"
+                                    }
+                                ]
+                            }, 
+                            "hash": "7eb64cf9621d34c54fd4bd040ed4b61a88c4a1a0", 
+                            "snaks-order": [
+                                "P143"
+                            ]
+                        }
+                    ], 
+                    "mainsnak": {
+                        "datatype": "commonsMedia", 
+                        "datavalue": {
+                            "type": "string", 
+                            "value": "Prunus sargentii.JPG"
+                        }, 
+                        "property": "P18", 
+                        "snaktype": "value"
+                    }, 
+                    "id": "q163039$0E707BCD-4C42-4285-8C76-872F4E0D5520", 
+                    "rank": "normal"
+                }
+            ], 
+            "P31": [
+                {
+                    "type": "statement", 
+                    "mainsnak": {
+                        "datatype": "wikibase-item", 
+                        "datavalue": {
+                            "type": "wikibase-entityid", 
+                            "value": {
+                                "entity-type": "item", 
+                                "numeric-id": 16521
+                            }
+                        }, 
+                        "property": "P31", 
+                        "snaktype": "value"
+                    }, 
+                    "id": "Q163039$5139F2B6-ED5C-4BB8-B3FC-907D492957FA", 
                     "rank": "normal"
                 }
             ], 
@@ -1063,32 +653,72 @@
                         "datatype": "external-id", 
                         "datavalue": {
                             "type": "string", 
-                            "value": "rjp-44"
+                            "value": "rjp-19833"
                         }, 
                         "property": "P1070", 
                         "snaktype": "value"
                     }, 
-                    "id": "Q146951$4903E893-1B8A-4B1F-85B2-BBE4920B8B5A", 
+                    "id": "Q163039$5B47F37F-9084-4924-8D24-D67ACDD69FD7", 
                     "rank": "normal"
                 }
             ]
         }, 
-        "aliases": [
-            {
-                "value": "Prunus cerasifera", 
-                "language": "de"
-            }, 
-            {
-                "value": "Myrobalane", 
-                "language": "de"
-            }
-        ], 
+        "aliases": {
+            "hsb": [
+                {
+                    "value": "Prunus sargentii", 
+                    "language": "hsb"
+                }
+            ], 
+            "sv": [
+                {
+                    "value": "Prunus sargentii", 
+                    "language": "sv"
+                }
+            ], 
+            "da": [
+                {
+                    "value": "Prunus sargentii", 
+                    "language": "da"
+                }, 
+                {
+                    "value": "Sachalin-Kirseb\u00e6r", 
+                    "language": "da"
+                }
+            ], 
+            "fa": [
+                {
+                    "value": "\u0627\u0648\u06cc\u0627\u0645\u0627\u0632\u0627\u06a9\u0648\u0631\u0627", 
+                    "language": "fa"
+                }, 
+                {
+                    "value": "\u067e\u0631\u0648\u0646\u0648\u0633 \u0633\u0627\u0631\u06af\u0646\u062a\u06cc", 
+                    "language": "fa"
+                }
+            ], 
+            "fi": [
+                {
+                    "value": "Prunus sargentii", 
+                    "language": "fi"
+                }
+            ], 
+            "ja": [
+                {
+                    "value": "\u30d9\u30cb\u30e4\u30de\u30b6\u30af\u30e9", 
+                    "language": "ja"
+                }, 
+                {
+                    "value": "\u30a8\u30be\u30e4\u30de\u30b6\u30af\u30e9", 
+                    "language": "ja"
+                }
+            ]
+        }, 
         "description": {
             "value": "Art der Gattung Prunus", 
             "language": "de"
         }, 
         "label": {
-            "value": "Kirschpflaume", 
+            "value": "Prunus sargentii", 
             "language": "de"
         }
     }
